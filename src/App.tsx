@@ -1,5 +1,11 @@
+import PokemonList from "./components/PokemonList";
+
 const App = () => {
-  return <div>App</div>;
+  return (
+    <div>
+      <PokemonList />
+    </div>
+  );
 };
 
 export default App;
